@@ -60,9 +60,31 @@
     color: #02aceb;
 }
 
-.product {
+.product-images {
     position: relative;
     width: 100%;
+}
+
+.product-info {
+    position: absolute;
+    width: 310px;
+    height: 180px;
+    left: 360px;
+    top: 575px;
+    color: #fff;
+}
+
+.product-info h1 {
+    font-size: 32px;
+    margin-bottom: 12px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.product-info p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 115%;
 }
 
 .kefir-image {
@@ -95,12 +117,13 @@
 
 .about-section-wrapper h2 span{
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .about-section-wrapper p {
     font-size: 16px;
     line-height: 120%;
+    margin-top: -15px;
 }
 
 .about-section-wrapper p span{
@@ -121,10 +144,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -60px;
 }
 
 .image-box2 {
-    margin-left: 85px;
+    margin-left: 125px;
 }
 
 .content-box2 {
@@ -135,10 +159,74 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -60px;
 }
 
 .image-box3 {
     margin-right: 85px;
+}
+
+.services-wrapper {
+    margin-top: 232px;
+}
+
+.services-rectangle-wrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.second-green-rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 733px;
+    height: 174px;
+    margin-top: -87px;
+    margin-left: -367px;
+}
+
+.dot {
+    position: absolute;
+    right: 355px;
+    top: 110px;
+}
+
+.services-info-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 80px 50px 70px;
+    margin-top: -30px;
+}
+
+.services-info-wrapper h3 {
+    width: 733px;
+    z-index: 1;
+    padding: 0px 80px 50px 70px;
+    text-transform: uppercase;
+    line-height: 110%;
+    color: #fff;
+    font-weight: 600;
+}
+
+.usages-wrapper {
+    margin-top: 135px
+}
+
+.usages-wrapper h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.usages-wrapper p {
+    margin-top: 135px;
+    font-size: 20px;
+}
+
+.products-wrapper {
+    display: flex;
 }
 
 
