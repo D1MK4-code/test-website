@@ -9,7 +9,7 @@
 .hero {
     background-image: url(img/hero.png);
     width: 100%;
-    min-height: 855px;
+    min-height: 820px;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -48,3 +48,101 @@
     margin-left: 28px;
     font-weight: 600;
 }
+
+.navigation-list-item a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.navigation-list-item a span{
+    color: #02aceb;
+}
+
+.product {
+    position: relative;
+    width: 100%;
+}
+
+.kefir-image {
+    position: absolute;
+    top: 316px;
+    left: 177px;
+    z-index: 3
+}
+
+.green-rectangle {
+    position: absolute;
+    top: 520px;
+    left: 100px;
+}
+
+.about-section-wrapper {
+    margin-top: 160px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 86px 0 100px;
+}
+
+.about-section-wrapper h2 {
+    font-size: 35px;
+    line-height: 120%;
+}
+
+.about-section-wrapper h2 span{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.about-section-wrapper p {
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.about-section-wrapper p span{
+    font-weight: 600;
+}
+
+.first-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    margin-right: 85px;
+}
+
+.second-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box2 {
+    margin-left: 85px;
+}
+
+.content-box2 {
+    text-align: right;
+}
+
+.third-about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box3 {
+    margin-right: 85px;
+}
+
+
+
+
+
+
