@@ -21,7 +21,7 @@
     position: absolute;
     top:0;
     right: 0;
-    min-width: 1031px;
+    width: 1031px;
 }
 
 .nav-section img {
@@ -332,12 +332,26 @@
     justify-content: space-between;
 }
 
+.first-woman-container  {
+    width: 50vw;
+    position: relative;
+}
+
+.second-woman-container  {
+    width: 50vw;
+    position: relative;
+}
+
 .first-woman-container img {
-    width: 720px;
+    width: 100%;
+    position: absolute;
+    left: 0;
 }
 
 .second-woman-container img {
-    width: 720px;
+    width: 100%;
+    position: absolute;
+    right: 0;
 }
 
 .cure-wrapper {
@@ -426,6 +440,119 @@
     justify-content: space-between;
 }
 
+/* Media Queries */
+
+@media screen and (max-width: 1280px) {
+    .first-about-container {
+        flex-direction: column-reverse;
+    }
+
+    .first-about-container .content-box {
+        margin: 0 50px 50px 50px;
+    }
+
+    .second-about-container {
+        flex-direction: column;
+    }
+
+    .second-about-container .content-box2 {
+        margin: 120px 50px 50px 50px;
+    }
+
+    .image-box2 {
+        margin-left: 0px;
+    }
+
+    .image-box, .image-box3 {
+        margin-right: 0px;
+    }
+
+    .third-about-container {
+        flex-direction: column-reverse;
+    }
+
+    .third-about-container .content-box3 {
+        margin: 120px 50px 50px 50px;
+    }
+
+    .navbar-bg {
+        width: 900px;
+    }
+
+    .navigation-list {
+        margin: 40px 90px 0 0;
+    }
+
+    .usages {
+        padding: 0 40px;
+    }
+
+    .second-usages {
+        padding: 0 40px;
+    }
+
+    .cure-wrapper {
+        margin-top: -150px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .products-wrapper, .left-product, .right-product {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .products-wrapper p {
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .second-green-rectangle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 467px;
+        height: 137px;
+        margin-top: -69px;
+        margin-left: -234px;
+    }
+
+    .services-info-wrapper {
+        font-size: 14px;
+    }
+
+    .services-info-wrapper h3 {
+        width: 500px;
+        padding: 0px 80px 0px 80px;
+        margin-top: -10px;
+    }
+
+    .cure-wrapper {
+        margin-top: -250px;
+    }
+
+    .cure-services-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 50px;
+    }
+
+    .cure-title-wrapper {
+        padding: 0 40px;
+        text-align: center;
+    }
+
+    .cure-service-item {
+        width: 100%;
+        padding: 0 30px;
+        text-align: center;
+    }
+}
 
 
 
