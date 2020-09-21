@@ -383,6 +383,10 @@
 .cure-service-item {
     height: 200px;
     width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .cure-service-item h3 {
@@ -492,7 +496,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -150px;
+        margin-top: -10px;
     }
 }
 
@@ -558,7 +562,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -250px;
+        margin-top: -150px;
     }
 
     .cure-services-wrapper {
@@ -680,6 +684,7 @@
         margin-top: 500px;
         text-shadow: 2px 2px 2px #000;
         text-align: center;
+        width: 300px;
     }
 
     .product-images {
@@ -720,6 +725,10 @@
     .content-box, .content-box2, .content-box3 {
         width: 90vw;
         padding: 0px 50px;
+    }
+
+    .cure-wrapper {
+        margin-top: -250px;
     }
 }
 
@@ -781,13 +790,78 @@
         display: none;
     }
 
+    .services-info-wrapper {
+        margin-top: -100px;
+        padding: 0px 40px 0px 40px;
+    }
+
     .services-info-wrapper h3 {
         color: #000;
-        padding: 0px 20px 0px 20px;
-        width: 100%;
+        font-size: 16px;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .first-footer-paragraph {
+        display: flex;
+        padding: 30px 0 0 10px;
+        justify-content: space-between;
+    }
+
+    .second-footer-paragraph {
+        display: flex;
+        padding: 30px 10px;
+        justify-content: space-between;
+    }
+
+    .usages {
+       width: 250px;
+       text-align: center;
+       padding: 0 10px;
+    }
+
+    .usages h2 {
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .products-wrapper h3 {
+        text-align: center;
     }
 
 
+    .cure-services-wrapper {
+        padding: 20px 10px;
+    }
+
+    .cure-wrapper {
+        margin-top: -300px;
+    }
+
+    .cure-title-wrapper {
+        padding: 0 10px;
+        text-align: center;
+    }
+
+    .cure-service-item {
+        max-width: 400px;
+        padding: 30px 10px;
+    }
+
+    .footer-container {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cure-service-item {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    .cure-service-item {
+        margin-top: 100px;
+    }
 }
 
 
