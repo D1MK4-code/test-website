@@ -203,14 +203,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 9.7vw 50px 9.7vw;
+    padding: 30px 9.7vw 30px 9.7vw;
     /* margin-top: -30px; */
 }
 
 .services-info-wrapper h3 {
     width: 80%;
     z-index: 1;
-    padding: 50px 9.7vw 50px 9.7vw;
+    padding: 20px 9.7vw 20px 9.7vw;
     text-transform: uppercase;
     line-height: 125%;
     color: #fff;
@@ -754,7 +754,7 @@
     }
 
     .image-box img, .image-box2 img, .image-box3 img {
-        width: 70vw;
+        width: 80vw;
         padding: 0px 9.7vw;
     }
 
