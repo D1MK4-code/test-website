@@ -668,9 +668,9 @@
     }
 
     .line {
-        width: 30px;
+        width: 25px;
         height: 3px;
-        background: #000;
+        background:#02aceb;
         margin: 5px;
     }
 
