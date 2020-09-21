@@ -194,6 +194,7 @@
 
 .services-info-wrapper {
     width: 100%;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -291,11 +292,11 @@
 }
 
 .right-product h3 {
-    margin-top: 50px;
+    margin-top: 47px;
 }
 
 .second-usages-wrapper {
-    margin-top: 165px;
+    margin-top: 100px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -496,7 +497,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -10px;
+        margin-top: -100px;
     }
 }
 
@@ -562,7 +563,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -150px;
+        margin-top: -250px;
     }
 
     .cure-services-wrapper {
@@ -681,7 +682,7 @@
     .product-info {
         color: #fff;
         position: static;
-        margin-top: 500px;
+        margin-top: 350px;
         text-shadow: 2px 2px 2px #000;
         text-align: center;
         width: 300px;
@@ -728,7 +729,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -250px;
+        margin-top: -350px;
     }
 }
 
@@ -835,7 +836,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -300px;
+        margin-top: -500px;
     }
 
     .cure-title-wrapper {
@@ -850,6 +851,12 @@
 
     .footer-container {
         margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cure-wrapper {
+        margin-top: -600px;
     }
 }
 
