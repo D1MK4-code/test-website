@@ -508,6 +508,11 @@
         margin: 120px 9.7vw 50px 9.7vw;
     }
 
+    .content-box, .content-box2, .content-box3 {
+        text-align: center;
+    }
+
+
     .navbar-bg {
         width: 900px;
     }
@@ -800,20 +805,16 @@
     .product-info {
         color: #fff;
         position: absolute;
-        margin: 72px 0 0 12.5vw;
+        margin: 32px 0 0 12.5vw;
         /* text-shadow: 2px 2px 2px #000; */
         text-align: left;
         z-index: 1000;
         width: 280px;
     }
 
-    .product-images {
-        /* display: none; */
-    }
-
     .green-rectangle {
         width: 285px;
-        margin: 80px 0 0 10vw;
+        margin: 40px 0 0 10vw;
         left: 0;
         position: absolute;
     }
