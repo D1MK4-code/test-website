@@ -18,30 +18,33 @@
 }
 
 .navbar-bg {
-    position: absolute;
+    position: fixed;
     top:0;
     right: 0;
     width: 1031px;
+    z-index: 100;
 }
 
 .nav-section img {
-    position: absolute;
-    z-index: 2;
+    position: fixed;
+    z-index: 4001;
     top: 0;
-    left: 185px;
+    left: 10vw;
 }
 
 .navigation {
-    position: absolute;
+    position: fixed;
     color: #000;
     z-index: 1;
     width: 100%;
+    z-index: 101;
+
 }
 
 .navigation-list {
     display: flex;
     justify-content: flex-end;
-    margin: 45px 90px 0 0;
+    margin: 45px 10vw 0 0;
 }
 
 .navigation-list-item {
@@ -69,35 +72,37 @@
     position: absolute;
     width: 310px;
     height: 180px;
-    left: 360px;
-    top: 575px;
+    left: 340px;
+    top: 405px;
     color: #fff;
 }
 
 .product-info h1 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 12px;
     line-height: 120%;
     font-weight: 700;
 }
 
 .product-info p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 115%;
 }
 
 .kefir-image {
     position: absolute;
-    top: 316px;
-    left: 177px;
-    z-index: 3
+    top: 220px;
+    left: 207px;
+    z-index: 3;
+    width: 100px;
 }
 
 .green-rectangle {
     position: absolute;
-    top: 520px;
-    left: 100px;
+    top: 375px;
+    left: 9.7vw;
+    width: 500px;
 }
 
 .about-section-wrapper {
@@ -107,7 +112,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 86px 0 100px;
+    padding: 0 9.7vw 0 9.7vw;
 }
 
 .about-section-wrapper h2 {
@@ -198,14 +203,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 80px 50px 70px;
+    padding: 0px 9.7vw 50px 9.7vw;
     margin-top: -30px;
 }
 
 .services-info-wrapper h3 {
     width: 733px;
     z-index: 1;
-    padding: 0px 80px 50px 70px;
+    padding: 0px 9.7vw 50px 9.7vw;
     text-transform: uppercase;
     line-height: 110%;
     color: #fff;
@@ -336,11 +341,17 @@
 .first-woman-container  {
     width: 50vw;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .second-woman-container  {
     width: 50vw;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
 }
 
 .first-woman-container img {
@@ -376,7 +387,7 @@
 
 .cure-services-wrapper {
     display: flex;
-    padding: 65px 100px;
+    padding: 65px 9.7vw;
     justify-content: center;
     align-items: center;
 }
@@ -419,7 +430,7 @@
 }
 
 .cure-second-item {
-    margin: 0 90px;
+    margin: 0 9.7vw;
 }
 
 .footer-container {
@@ -431,7 +442,7 @@
 
 .first-footer-paragraph {
     display: flex;
-    padding: 30px 0 0 100px;
+    padding: 30px 0 0 9.7vw;
 }
 
 .first-footer-paragraph p {
@@ -441,7 +452,7 @@
 
 .second-footer-paragraph {
     display: flex;
-    padding: 30px 100px;
+    padding: 30px 9.7vw;
     justify-content: space-between;
 }
 
@@ -453,7 +464,7 @@
     }
 
     .first-about-container .content-box {
-        margin: 0 50px 50px 50px;
+        margin: 0 9.7vw 50px 9.7vw;
     }
 
     .second-about-container {
@@ -461,7 +472,7 @@
     }
 
     .second-about-container .content-box2 {
-        margin: 120px 50px 50px 50px;
+        margin: 120px 9.7vw 50px 9.7vw;
     }
 
     .image-box2 {
@@ -477,7 +488,7 @@
     }
 
     .third-about-container .content-box3 {
-        margin: 120px 50px 50px 50px;
+        margin: 120px 9.7vw 50px 9.7vw;
     }
 
     .navbar-bg {
@@ -485,7 +496,7 @@
     }
 
     .navigation-list {
-        margin: 40px 90px 0 0;
+        margin: 40px 9.7vw 0 0;
     }
 
     .usages {
@@ -518,24 +529,34 @@
 @media screen and (max-width: 992px) {
     .nav-section img {
         width: 64px;
-        left: 205px;
+        left: 9.7vw
     }
 
     .product-info {
-        width: 310px;
+        width: 200px;
         height: 180px;
-        left: 360px;
-        top: 925px;
+        left: 230px;
+        top: 340px;
+    }
+
+    .product-info h1 {
+        font-size: 20px;
+    }
+
+    .product-info p {
+        font-size: 15px;
     }
 
     .kefir-image {
-        top: 666px;
-        left: 177px;
+        top: 226px;
+        left: 120px;
+        width: 74px;
     }
 
     .green-rectangle {
-        top: 870px;
-        left: 100px;
+        top: 320px;
+        left: 10vw;
+        width: 400px;
     }
 
     .about-section-wrapper {
@@ -558,7 +579,7 @@
 
     .services-info-wrapper h3 {
         width: 500px;
-        padding: 0px 80px 0px 80px;
+        padding: 0px 9.7vw 0px 9.7vw;
         margin-top: -10px;
     }
 
@@ -570,17 +591,17 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 50px 50px;
+        padding: 50px 9.7vw;
     }
 
     .cure-title-wrapper {
-        padding: 0 40px;
+        padding: 0 9.7vw;
         text-align: center;
     }
 
     .cure-service-item {
         width: 100%;
-        padding: 0 30px;
+        padding: 0 9.7vw;
         text-align: center;
     }
 }
@@ -589,6 +610,7 @@
     .navigation {
         background-color: #fff;
         height: 65px;
+        position: absolute;
     }
 
     .navbar-bg {
@@ -639,7 +661,7 @@
     .hamburger {
         position: absolute;
         cursor: pointer;
-        right: 20px;
+        right: 10vw;
         top: 20px;
         z-index: 3505;
     }
@@ -677,26 +699,40 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     .product-info {
         color: #fff;
-        position: static;
-        margin-top: 350px;
-        text-shadow: 2px 2px 2px #000;
-        text-align: center;
+        position: absolute;
+        margin: 0 0 0 22vw;
+        /* text-shadow: 2px 2px 2px #000; */
+        text-align: left;
         width: 300px;
+        z-index: 1000;
+        width: 220px;
+        left: 0;
     }
 
     .product-images {
+        /* display: none; */
+    }
+
+    .green-rectangle {
+        width: 300px;
+        margin: 10px 0 0 10vw;
+        position: absolute;
+    }
+
+    .kefir-image {
         display: none;
     }
 
     .nav-section img {
         position: absolute;
-        z-index: 2;
+        z-index: 4001;
         top: 0;
-        left: 20px;
+        left: 10vw;
     }
 
     .about-section-wrapper h2 {
@@ -720,12 +756,12 @@
 
     .image-box img, .image-box2 img, .image-box3 img {
         width: 90vw;
-        padding: 0px 20px;
+        padding: 0px 40px;
     }
 
     .content-box, .content-box2, .content-box3 {
-        width: 90vw;
-        padding: 0px 50px;
+        width: 100%;
+        padding: 0px 9.7vw;
     }
 
     .cure-wrapper {
@@ -741,7 +777,29 @@
     }
 
     .nav-section img {
-        left: 20px;
+        left: 10vw;
+    }
+
+    .product-info {
+        color: #fff;
+        position: absolute;
+        margin: 70px 0 0 12vw;
+        /* text-shadow: 2px 2px 2px #000; */
+        text-align: left;
+        width: 300px;
+        z-index: 1000;
+        width: 220px;
+    }
+
+    .product-images {
+        /* display: none; */
+    }
+
+    .green-rectangle {
+        width: 280px;
+        margin: 85px 0 0 10vw;
+        left: 0;
+        position: absolute;
     }
 
     .about-section-wrapper h2 {
@@ -756,11 +814,11 @@
 
     .about-section-wrapper {
         margin-top: 70px;
-        padding: 0 10px 0 10px;
+        padding: 0 9.7vw 0 9.7vw;
     }
 
     .first-about-container .content-box {
-        margin: 0 20px 50px 20px;
+        margin: 0 9.7vw 50px 9.7vw;
     }
 
     .second-about-container {
@@ -768,7 +826,7 @@
     }
 
     .second-about-container .content-box2 {
-        margin: 120px 20px 50px 20px;
+        margin: 120px 9.7vw 50px 9.7vw;
     }
 
     .third-about-container {
@@ -778,7 +836,7 @@
     }
 
     .third-about-container .content-box3 {
-        margin: 120px 10px 50px 10px;
+        margin: 120px 9.7vw 50px 9.7vw;
     }
 
     .content-box, .content-box2, .content-box3 {
@@ -795,30 +853,30 @@
 
     .services-info-wrapper {
         margin-top: -100px;
-        padding: 0px 40px 0px 40px;
+        padding: 0px 9.7vw 0px 9.7vw;
     }
 
     .services-info-wrapper h3 {
         color: #000;
         font-size: 16px;
-        padding: 0px 10px 0px 10px;
+        padding: 0px 9.7vw 0px 9.7vw;
     }
 
     .first-footer-paragraph {
         display: flex;
-        padding: 30px 0 0 10px;
+        padding: 30px 9.7vw 0 9.7vw;
         justify-content: space-between;
     }
 
     .second-footer-paragraph {
         display: flex;
-        padding: 30px 10px;
+        padding: 30px 9.7vw;
         justify-content: space-between;
     }
 
     .usages, .second-usages {
        text-align: center;
-       padding: 0 20px;
+       padding: 0 9.7vw;
     }
 
     .usages h2 {
@@ -832,7 +890,7 @@
 
 
     .cure-services-wrapper {
-        padding: 20px 10px;
+        padding: 20px 9.7vw;
     }
 
     .cure-wrapper {
@@ -840,13 +898,13 @@
     }
 
     .cure-title-wrapper {
-        padding: 0 10px;
+        padding: 0 9.7vw;
         text-align: center;
     }
 
     .cure-service-item {
         max-width: 400px;
-        padding: 30px 10px;
+        padding: 30px 9.7vw;
     }
 
     .footer-container {
