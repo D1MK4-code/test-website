@@ -735,6 +735,8 @@
 @media screen and (max-width: 576px) {
     .hero {
         height: 100vh;
+        background-position: 55% 45%;
+
     }
 
     .nav-section img {
