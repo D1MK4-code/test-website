@@ -611,8 +611,8 @@
     }
 
     .navigation-list.open {
-        clip-path: circle(1100px at 90% -30%);
-        -webkit-clip-path: circle(1100px at 90% -30%);
+        clip-path: circle(1700px at 90% -30%);
+        -webkit-clip-path: circle(1700px at 90% -30%);
         pointer-events: all;
     }
 
@@ -719,7 +719,7 @@
 
     .image-box img, .image-box2 img, .image-box3 img {
         width: 90vw;
-        padding: 0px 50px;
+        padding: 0px 20px;
     }
 
     .content-box, .content-box2, .content-box3 {
@@ -813,10 +813,9 @@
         justify-content: space-between;
     }
 
-    .usages {
-       width: 250px;
+    .usages, .second-usages {
        text-align: center;
-       padding: 0 10px;
+       padding: 0 20px;
     }
 
     .usages h2 {
