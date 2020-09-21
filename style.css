@@ -627,7 +627,7 @@
     .navigation {
         background-color: #fff;
         height: 65px;
-        position: fixed;
+        position: absolute;
         width: 40%;
         right: 0;
         border-bottom-left-radius: 15px;
@@ -649,7 +649,7 @@
         align-items: flex-end;
         clip-path: circle(100px at 90% -30%);
         -webkit-clip-path: circle(100px at 90% -30%);
-        transition: all 0.5s ease-out;
+        transition: all 0.5s ease-in-out;
         pointer-events: none;
     }
 
@@ -746,7 +746,7 @@
     }
 
     .nav-section img {
-        position: fixed;
+        position: absolute;
         z-index: 4001;
         top: 0;
         left: 10vw;
