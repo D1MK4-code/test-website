@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="lightbox.min.css">
+    <link rel="stylesheet" href="animate.css">
 
 </head>
 
@@ -22,9 +23,9 @@
 
     <div class="nav-section">
 
-        <img src="img/logo.png" alt="Website's logo">
+        <img class="wow slideInDown" src="img/logo.png" alt="Website's logo">
 
-        <nav class="navigation">
+        <nav class="navigation wow fadeIn" data-wow-delay="0.6s">
 
             <div class="hamburger">
 
@@ -73,7 +74,7 @@
 
     <section class="about-section-wrapper">
 
-        <div class="first-about-container">
+        <div class="first-about-container wow fadeInUpBig" data-wow-delay="-0.2s">
 
             <div class="image-box">
 
@@ -96,7 +97,7 @@
 
         </div>
 
-        <div class="second-about-container">
+        <div class="second-about-container wow fadeInUpBig">
 
             <div class="content-box2">
 
@@ -111,17 +112,18 @@
                     także cenne dla organizmu białka i łatwo przyswajalny wapń.
                 </p>
 
-                <div class="image-box2">
+            </div>
 
-                    <img src="img/second_rectangle.png" alt="Healthy, sporty woman">
+            <div class="image-box2">
 
-                </div>
+                <img src="img/second_rectangle.png" alt="Healthy, sporty woman">
 
             </div>
 
+
         </div>
 
-        <div class="third-about-container">
+        <div class="third-about-container wow fadeInUpBig">
 
             <div class="image-box3">
 
@@ -177,7 +179,7 @@
 
         <div class="products-wrapper">
 
-            <div class="left-product">
+            <div class="left-product wow fadeInUpBig">
 
                 <img src="img/shakes.png" alt="Shakes">
                 <h3><span>ZRÓB SOBIE</span> KOKTAIL <br><br>
@@ -189,7 +191,7 @@
 
             </div>
 
-            <div class="right-product">
+            <div class="right-product  wow fadeInUpBig">
 
                 <img src="img/pancakes.png" alt="Pancakes">
                 <h3><span>DODAJ DO</span> PANKEJKÓW <br><br></h3>
@@ -238,7 +240,7 @@
 
             <div class="cure-services-wrapper">
 
-                <div class="cure-service-item cure-first-item">
+                <div class="cure-service-item cure-first-item  wow fadeInUp" data-wow-delay="0.2s">
 
                     <h3>NA <span>WYPRYSKI</span> <br><br></h3>
                     <p> <span>Kefir wymieszaj z mąką ziemniaczaną (1 łyżka kefiru + 1/2 łyżeczki mąki).</span> <br><br>
@@ -248,7 +250,7 @@
 
                 </div>
 
-                <div class="cure-service-item cure-second-item">
+                <div class="cure-service-item cure-second-item  wow fadeInUp" data-wow-delay="0.2s">
 
                     <h3>NA <span>ZMARSZCZKI</span> <br><br></h3>
                     <p> <span>Kilka łyżeczek kefiru wymieszaj z odrobiną oliwy z oliwek. </span> <br><br>
@@ -257,7 +259,7 @@
 
                 </div>
 
-                <div class="cure-service-item cure-third-item">
+                <div class="cure-service-item cure-third-item  wow fadeInUp" data-wow-delay="0.2s">
 
                     <h3>NA <span>PRZEBARWIENIA</span> <br><br></h3>
                     <p> <span>Połącz łyżeczkę kefiru z odrobiną miodu, dodaj kilka kropli cytryny. </span> <br><br>
@@ -298,6 +300,10 @@
 
     <script src="app.js"></script>
     <script src="lightbox-plus-jquery.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
 </body>
 
