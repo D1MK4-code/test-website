@@ -497,7 +497,7 @@
     color: #02aceb;
     font-size: 24px;
     font-weight: 600;
-    padding: 20px;
+    padding: 75px 20px 20px 20px;
 }
 
 .gallery {
@@ -918,7 +918,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -550px;
+        margin-top: -450px;
     }
 
     .cure-title-wrapper {
@@ -938,7 +938,7 @@
 
 @media screen and (max-width: 400px) {
     .cure-wrapper {
-        margin-top: -650px;
+        margin-top: -500px;
     }
 }
 
