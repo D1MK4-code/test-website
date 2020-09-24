@@ -815,9 +815,9 @@
         text-align: center;
     }
 
-    .footer-container {
+    /* .footer-container {
         margin-top: 100px;
-    }
+    } */
 }
 
 @media screen and (max-width: 576px) {
