@@ -815,9 +815,9 @@
         text-align: center;
     }
 
-    /* .footer-container {
-        margin-top: 100px;
-    } */
+    .footer-container {
+        margin-bottom: -50px;
+    }
 }
 
 @media screen and (max-width: 576px) {
