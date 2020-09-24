@@ -9,14 +9,12 @@
 .hero {
     background-image: url(img/hero.png);
     width: 100%;
-    height: 90vh;
+    min-height: 840px;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: sticky;
     position: relative;
-    border-bottom-right-radius: 15% 20%;
-    border-bottom-left-radius: 100% 30%;
 }
 
 .navbar-bg {
@@ -73,7 +71,7 @@
     position: relative;
     width: 420px;
     left: 9.7vw;
-    top: 46vh;
+    top: 50vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -513,18 +511,9 @@
 /* Media Queries */
 
 @media screen and (max-width: 1279px) {
-    .hero {
-        background-image: url(img/hero.png);
-        width: 100%;
-        height: 80vh;
-        background-size: 120%;
-        background-position: top;
-        border-bottom-right-radius: 15% 20%;
-        border-bottom-left-radius: 100% 40%;
-    }
 
     .product-info {
-        top: 40.5vh;
+        top: 47vh;
     }
 
     .product-info h1 {
@@ -594,7 +583,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -50px;
+        margin-top: -150px;
     }
 }
 
@@ -613,16 +602,6 @@
 }
 
 @media screen and (max-width: 991px) {
-    .hero {
-        background-image: url(img/hero.png);
-        width: 100%;
-        height: 80vh;
-        background-size: 145%;
-        background-position: top;
-        border-bottom-right-radius: 15% 20%;
-        border-bottom-left-radius: 100% 40%;
-    }
-
     .nav-section img {
         width: 64px;
         left: 10vw
@@ -666,7 +645,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -200px;
+        margin-top: -300px;
     }
 
     .cure-services-wrapper {
@@ -690,16 +669,6 @@
 }
 
 @media screen and (max-width: 767px) {
-    .hero {
-        background-image: url(img/hero.png);
-        width: 100%;
-        height: 70vh;
-        background-size: cover;
-        background-position: top;
-        border-bottom-right-radius: 45% 60%;
-        border-bottom-left-radius: 100% 40%;
-    }
-
     .navigation {
         background-color: #fff;
         height: 65px;
@@ -868,7 +837,6 @@
     .hero {
         height: 100vh;
         background-position: 55% 45%;
-
     }
 
     .nav-section img {
@@ -877,7 +845,7 @@
 
     .product-info {
        width: 60vw;
-       top: 40vh;
+       top: 50vh;
     }
 
     .product-info h1 {
@@ -978,7 +946,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -350px;
+        margin-top: -450px;
     }
 
     .cure-title-wrapper {
