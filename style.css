@@ -396,6 +396,10 @@
     text-align: left;
 }
 
+.cure-services-mobile-container {
+    display: none;
+}
+
 .cure-service-item {
     height: 200px;
     width: 100%;
@@ -506,7 +510,7 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
 
     .kefir-image {
         max-width: 8vw;
@@ -571,7 +575,7 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
     .products-wrapper, .left-product, .right-product {
         flex-direction: column;
         justify-content: center;
@@ -585,7 +589,7 @@
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .nav-section img {
         width: 64px;
         left: 10vw
@@ -652,7 +656,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .navigation {
         background-color: #fff;
         height: 65px;
@@ -786,7 +790,33 @@
     }
 
     .cure-wrapper {
-        margin-top: -450px;
+        margin-top: -300px;
+    }
+
+    .cure-services-wrapper {
+        display: none;
+    }
+
+    .cure-services-mobile-container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .cure-service-item {
+        padding: 50px 0 20px 0;
+    }
+
+    .cure-service-item h3 {
+        text-align: center;
+    }
+
+    .cure-service-item p {
+        text-align: center;
+    }
+
+    .footer-container {
+        margin-top: 60px;
     }
 }
 
