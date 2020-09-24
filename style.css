@@ -9,12 +9,14 @@
 .hero {
     background-image: url(img/hero.png);
     width: 100%;
-    min-height: 820px;
+    height: 90vh;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
     background-attachment: sticky;
     position: relative;
+    border-bottom-right-radius: 15% 20%;
+    border-bottom-left-radius: 100% 30%;
 }
 
 .navbar-bg {
@@ -71,7 +73,7 @@
     position: relative;
     width: 420px;
     left: 9.7vw;
-    top: 52vh;
+    top: 46vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -450,7 +452,7 @@
 
 .footer-container {
     width: 100%;
-    height: 150px;
+    height: 140px;
     background-color: #f5f7f8;
     font-size: 14px;
 }
@@ -467,7 +469,7 @@
 
 .second-footer-paragraph {
     display: flex;
-    padding: 30px 9.7vw;
+    padding: 30px 9.7vw 20px 9.7vw;
     justify-content: space-between;
 }
 
@@ -511,10 +513,31 @@
 /* Media Queries */
 
 @media screen and (max-width: 1279px) {
+    .hero {
+        background-image: url(img/hero.png);
+        width: 100%;
+        height: 80vh;
+        background-size: 120%;
+        background-position: top;
+        border-bottom-right-radius: 15% 20%;
+        border-bottom-left-radius: 100% 40%;
+    }
+
+    .product-info {
+        top: 40.5vh;
+    }
+
+    .product-info h1 {
+        padding: 30px 5vw 30px 15.5vw;
+    }
 
     .kefir-image {
         max-width: 8vw;
         left: 4.5vw;
+    }
+
+    .about-section-wrapper {
+        margin-top: 100px;
     }
 
     .first-about-container {
@@ -571,7 +594,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -250px;
+        margin-top: -50px;
     }
 }
 
@@ -590,6 +613,16 @@
 }
 
 @media screen and (max-width: 991px) {
+    .hero {
+        background-image: url(img/hero.png);
+        width: 100%;
+        height: 80vh;
+        background-size: 145%;
+        background-position: top;
+        border-bottom-right-radius: 15% 20%;
+        border-bottom-left-radius: 100% 40%;
+    }
+
     .nav-section img {
         width: 64px;
         left: 10vw
@@ -633,7 +666,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -350px;
+        margin-top: -200px;
     }
 
     .cure-services-wrapper {
@@ -657,6 +690,16 @@
 }
 
 @media screen and (max-width: 767px) {
+    .hero {
+        background-image: url(img/hero.png);
+        width: 100%;
+        height: 70vh;
+        background-size: cover;
+        background-position: top;
+        border-bottom-right-radius: 45% 60%;
+        border-bottom-left-radius: 100% 40%;
+    }
+
     .navigation {
         background-color: #fff;
         height: 65px;
@@ -755,6 +798,10 @@
         left: 10vw;
     }
 
+    .product-info {
+        top: 35vh;
+    }
+
     .kefir-image {
         max-width: 10vw;
         left: 3.5vw;
@@ -830,6 +877,7 @@
 
     .product-info {
        width: 60vw;
+       top: 40vh;
     }
 
     .product-info h1 {
@@ -930,7 +978,7 @@
     }
 
     .cure-wrapper {
-        margin-top: -450px;
+        margin-top: -350px;
     }
 
     .cure-title-wrapper {
@@ -1004,6 +1052,12 @@
 
     .product-info h1 {
         padding: 40px 5vw 40px 12.5vw;
+    }
+  }
+
+  @media (min-width: 1600px) {
+    .product-info {
+        left: 12.1vw;
     }
   }
 
