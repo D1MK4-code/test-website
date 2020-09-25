@@ -9,7 +9,7 @@
 .hero {
     background-image: url(img/jogging.jpg);
     width: 100%;
-    height: 974.6px;
+    height: 85vh;
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
@@ -21,14 +21,14 @@
     position: absolute;
     content: "";
     background-image: url(img/mask_new.svg);
+    display: block;
     background-repeat: no-repeat;
     background-position: 0 100%;
     background-size: 100% 16%;
-    display: block;
-    left: 0;
     top: 5px;
-    width: 100%;
+    left: 0;
     height: 100%;
+    width: 100%;
     pointer-events: none;
     z-index: 10;
 }
@@ -81,13 +81,15 @@
 
 .kefir-wrapper {
     width: 100%;
+    z-index: 30;
+    position: absolute;
 }
 
 .product-info {
     position: relative;
     width: 420px;
     left: 9.7vw;
-    top: 50vh;
+    top: -37vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -529,7 +531,7 @@
 @media screen and (max-width: 1279px) {
 
     .product-info {
-        top: 47vh;
+        top: -35vh;
     }
 
     .product-info h1 {
@@ -630,6 +632,7 @@
 
     .product-info {
         width: 350px;
+        top: -33vh;
     }
 
     .product-info h1 span {
@@ -783,6 +786,11 @@
         left: 10vw;
     }
 
+    .product-info {
+        width: 350px;
+        top: -30vh;
+    }
+
     .kefir-image {
         max-width: 10vw;
         left: 3.5vw;
@@ -857,7 +865,7 @@
 
     .product-info {
        width: 60vw;
-       top: 50vh;
+       top: -50vh;
     }
 
     .product-info h1 {
