@@ -89,7 +89,7 @@
     position: relative;
     width: 420px;
     left: 9.7vw;
-    top: -37vh;
+    top: -42vh;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -1051,7 +1051,7 @@
   @media (min-width: 1900px) {
     .product-info {
         left: 13.1vw;
-        top: -28vh;
+        top: -32vh;
     }
   }
 
